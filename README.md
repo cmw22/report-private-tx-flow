@@ -1,5 +1,7 @@
 # Bank Transactions Report Generator
 
+[![Python Tests](https://github.com/cmw22/report-private-tx-flow/actions/workflows/python-tests.yml/badge.svg)](https://github.com/cmw22/report-private-tx-flow/actions/workflows/python-tests.yml)
+
 This tool allows you to generate report for daily in/out flow in Privatbank accounts based on transactions.
 Report is generated in either JSON or CSV format.
 It queries a bank API to fetch transactions for specified accounts within a given date range.
