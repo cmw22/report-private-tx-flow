@@ -45,13 +45,13 @@ python main.py -a <accounts> -t <token> [-tf <token-file>] [-s <start-date>] [-e
 To generate a CSV report for accounts UA1530000000000 and UA51305200000000000 for the current month:
 
 ```bash
-python your_program.py -a UA1530000000000,UA51305200000000000 -t your_token_here -s 01-03-2024
+python main.py -a UA1530000000000,UA51305200000000000 -t your_token_here -s 01-03-2024
 ```
 
 Or, to generate a JSON report for the same accounts and date range, but with the token stored in a file:
 
 ```bash
-python your_program.py -a UA1530000000000,UA51305200000000000 -tf path/to/your_token_file -s 01-03-2024 -f json
+python main.py -a UA1530000000000,UA51305200000000000 -tf path/to/your_token_file -s 01-03-2024 -f json
 ```
 
 ## Example Output
